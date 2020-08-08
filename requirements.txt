@@ -1,0 +1,6 @@
+Django==3.0.6
+gunicorn==19.6.0
+whitenoise
+djangorestframework
+markdown
+django-filter
