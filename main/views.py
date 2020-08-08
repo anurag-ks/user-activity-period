@@ -5,10 +5,17 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 def index(request):
+    '''
+        Index view page.
+    '''
     return render(request, 'index.html')
 
 
 class UserModelView(APIView):
+    '''
+        UserModel api view
+        get - Returns the list of members/users in the database along with their respective activity periods.
+    '''
     def get(self, request):
         data = {"ok": True, 'members': []}
 
