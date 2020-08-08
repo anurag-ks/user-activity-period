@@ -4,3 +4,4 @@ whitenoise
 djangorestframework
 markdown
 django-filter
+django_heroku
